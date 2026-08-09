@@ -19,3 +19,8 @@ Present your findings in the following format:
 | Netflix               | Availability                 | Load balancing, CDN    | Content delivery network      | Ensures reliable performance under high traffic  |
 | Instagram             | Authentication               | Password + OTP         | OAut HTTPS                    | Verifies the identity before granting the account access|
 | Uber/Ola              | Authentication               | OTP                    | SMS OTP/ HTTPS                | Verifies the driver and rider identity befor the trip |
+
+
+2. For any five real-world applications, investigate the security controls used to protect users and data. Classify the controls based on whether they provide Confidentiality, Integrity, or Availability, and determine how these controls help in preventing, detecting, and recovering from security attacks. Mention the mechanisms and protocols involved.
+
+
