@@ -23,4 +23,10 @@ Present your findings in the following format:
 
 2. For any five real-world applications, investigate the security controls used to protect users and data. Classify the controls based on whether they provide Confidentiality, Integrity, or Availability, and determine how these controls help in preventing, detecting, and recovering from security attacks. Mention the mechanisms and protocols involved.
 
+|Application     |Security control              | CIA          | Preventing               | Dectecting      | Recovering   | Mechanism/Protocol          |
+|--------------- |------------------------------|--------------|--------------------------|-----------------|--------------|-----------------------------|
+|Online banking  |Encryption+OTP                |Confidentiality|	Stops anyone other than users from reading your data or logging in without OTP|	Alerts if login is tried from a new device| Allows to freeze account/reset password if hacked|	SSL/TLS, HTTPS, OTP, 2FA|
+|Gmail           | Spam/Phishing filters + Digital Signatures | Integrity | Blocks fake/malicious emails before they reach inbox | Flags suspicious sender addresses and links | Lets you report phishing, which improves future filtering | DKIM, SPF, DMARC |
+| Amazon         | Firewalls + Load Balancers   | Availability | Blocks malicious traffic (like DDoS attacks) from crashing the site | Monitors unusual traffic spikes in real time | Redirects traffic to backup servers to keep site running | Firewall, DDoS protection, Load Balancing | 
+Instagram | Two-Factor Authentication + Hashing (passwords)	Confidentiality + Integrity | Prevents account takeover even if password is leaked | Detects login attempts from unknown locations | Lets you recover account via email/phone verification | 2FA, Password Hashing (bcrypt), HTTPS | 
 
