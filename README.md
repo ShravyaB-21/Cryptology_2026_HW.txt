@@ -49,7 +49,7 @@ Before our ride starts, we get an OTP. We give it to the driver to confirm. Wher
 
 
 
-2. For any five real-world applications, investigate the security controls used to protect users and data. Classify the controls based on whether they provide Confidentiality, Integrity, or Availability, and determine how these controls help in preventing, detecting, and recovering from security attacks. Mention the mechanisms and protocols involved.
+For any five real-world applications, investigate the security controls used to protect users and data. Classify the controls based on whether they provide Confidentiality, Integrity, or Availability, and determine how these controls help in preventing, detecting, and recovering from security attacks. Mention the mechanisms and protocols involved.
    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 |Application     |Security control              | CIA          | Preventing               | Dectecting      | Recovering   | Mechanism/Protocol          |
