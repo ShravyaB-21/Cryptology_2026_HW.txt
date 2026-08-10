@@ -1,13 +1,11 @@
 Topic: CO1 
 Security Features in Real-World Applications
 
-1. Identify any five real-world applications or online services that involve communication, authentication, or transactions. For each application, investigate and identify:
-
+Identify any five real-world applications or online services that involve communication, authentication, or transactions. For each application, investigate and identify:
 The security feature/service required, such as confidentiality, integrity, authentication, authorization, availability
 The security mechanism used to provide the identified security feature.
 The security protocol or technology used to implement the mechanism.
 Briefly explain how the mechanism/protocol provides the identified security feature.
-
 Present your findings in the following format:
 -------------------------------------------------
 
