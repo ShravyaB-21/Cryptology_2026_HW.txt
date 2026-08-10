@@ -20,8 +20,29 @@ Present your findings in the following format:
 | Instagram             | Authentication               | Password + OTP         | OAut HTTPS                    | Verifies the identity before granting the account access|
 | Uber/Ola              | Authentication               | OTP                    | SMS OTP/ HTTPS                | Verifies the driver and rider identity befor the trip |
 
+1. Gmail
+Gmail checks two things before allowing  to login — the password, and a code sent to the user's phone. This makes sure it's really the user, not someone else pretending to be the user.
+2. Online Banking
+When we send money or check our balance, our data gets encrypted while it travels to the bank's server. So even if a hacker catches it midway, they cannot read it.
 
-2. For any five real-world applications, investigate the security controls used to protect users and data. Classify the controls based on whether they provide Confidentiality, Integrity, or Availability, and determine how these controls help in preventing, detecting, and recovering from security attacks. Mention the mechanisms and protocols involved.
+3. Aadhaar
+Aadhaar checks our fingerprint, eye scan, or a phone OTP. These are things only we have, so nobody can fake being us.
+
+4. College Result Portal
+The marks get a special digital "stamp" when uploaded. If anyone tries to change even one number, the stamp breaks and the system knows something is wrong.
+
+5. Netflix
+Netflix uses many servers spread across different places. So when lots of people watch at once, the load gets shared and nothing crashes or lags.
+
+6. Instagram
+Same as Gmail — password first, then an OTP. This double-check makes sure only we can open our account.
+
+7. Uber/Ola
+Before our ride starts, we get an OTP. We give it to the driver to confirm. Where, the driver can confirm this as the right ride and the right person.
+
+
+
+3. For any five real-world applications, investigate the security controls used to protect users and data. Classify the controls based on whether they provide Confidentiality, Integrity, or Availability, and determine how these controls help in preventing, detecting, and recovering from security attacks. Mention the mechanisms and protocols involved.
 
 |Application     |Security control              | CIA          | Preventing               | Dectecting      | Recovering   | Mechanism/Protocol          |
 |--------------- |------------------------------|--------------|--------------------------|-----------------|--------------|-----------------------------|
